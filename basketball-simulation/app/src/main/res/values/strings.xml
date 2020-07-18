@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Basketball App</string>
+
+    <string name="games">Games</string>
+    <string name="league">League</string>
+    <string name="teams">Teams</string>
+
+    <string name="team_name">Team Name</string>
+    <string name="couch_name">Couch Name</string>
+    <string name="arena_name">Arena Name</string>
+    <string name="foundation_date">Found. Date</string>
+
+    <string name="player_name">Player Name</string>
+    <string name="player_position">POS</string>
+    <string name="player_age">AGE</string>
+    <string name="game_played">GP</string>
+    <string name="point_scored">PTS</string>
+    <string name="assists">AST</string>
+    <string name="rebound">REB</string>
+
+    <string name="win_count">WIN</string>
+    <string name="lose_count">LOSE</string>
+    <string name="win_streak">W STRK</string>
+
+    <string name="today_games">Live Games</string>
+    <string name="line"> - </string>
+    <string name="two_dot"> : </string>
+
+    <string name="start">Start</string>
+    <string name="delete">Delete</string>
+    <string name="stop">Stop</string>
+
+    <string name="show_label">Show Labels</string>
+
+    <string name="action">Action</string>
+    <string name="minute">Min</string>
+    <string name="second">Sec</string>
+    <string name="quarter">Qua</string>
+
+    <string name="export">Export with Mail</string>
+</resources>

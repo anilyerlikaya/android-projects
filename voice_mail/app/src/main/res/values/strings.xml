@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fmail</string>
+
+    <string name="login_message">Enter your mail and password</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="credentials_confirm">Confirm</string>
+
+    <string name="last_mail">"LAST LISTENED MAIL"</string>
+</resources>

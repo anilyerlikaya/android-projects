@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_historical_place"
+            android:icon="@drawable/ic_touristic_places"
+            app:actionLayout="@layout/drawer_switch"
+            android:title="@string/navigation_drawer_historical_place" />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/ic_restaurants"
+            app:actionLayout="@layout/drawer_switch"
+            android:title="@string/navigation_drawer_restaurant" />
+        <item
+            android:id="@+id/nav_museums"
+            android:icon="@drawable/ic_museums"
+            app:actionLayout="@layout/drawer_switch"
+            android:title="@string/navigation_drawer_museum" />
+        <item
+            android:id="@+id/nav_transportation"
+            android:icon="@drawable/ic_transportations"
+            app:actionLayout="@layout/drawer_switch"
+            android:title="@string/navigation_drawer_transportation" />
+    </group>
+
+    <item android:title="@string/navigation_drawer_settings">
+        <menu>
+            <item
+                android:id="@+id/nav_zoom_level_settings"
+                android:icon="@drawable/ic_settings"
+                app:actionLayout="@layout/drawer_switch"
+                android:title="@string/navigation_drawer_zoom_level" />
+            <item
+                android:id="@+id/nav_zoom_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/navigation_drawer_zoom_settings" />
+        </menu>
+    </item>
+
+</menu>
