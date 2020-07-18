@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddBookActivity">
+
+    <LinearLayout
+        style="@style/AddBookLinearLayoutStyle">
+
+        <TextView
+            style="@style/AddBookTextViewStyle"
+            android:text="@string/book_name"/>
+
+        <EditText
+            android:id="@+id/edit_text_book_name"
+            style="@style/AddBookEditTextStyle"
+            tools:text="1984"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AddBookLinearLayoutStyle">
+
+        <TextView
+            style="@style/AddBookTextViewStyle"
+            android:text="@string/price"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dolar_sign"
+            android:textSize="22sp"
+            android:textColor="@color/colorAccent"
+            android:paddingLeft="8dp"/>
+
+         <EditText
+             android:id="@+id/edit_text_price"
+             android:inputType="numberDecimal"
+             style="@style/AddBookEditTextStyle"
+             android:hint="@string/add_book_hint"/>/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AddBookLinearLayoutStyle">
+
+        <TextView
+            style="@style/AddBookTextViewStyle"
+            android:text="@string/quantity"/>
+
+        <EditText
+            android:id="@+id/edit_text_quantity"
+            style="@style/AddBookEditTextStyle"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AddBookLinearLayoutStyle">
+
+        <TextView
+            style="@style/AddBookTextViewStyle"
+            android:text="@string/supplier_name"/>
+
+        <EditText
+            android:id="@+id/edit_text_supplier_name"
+            style="@style/AddBookEditTextStyle"
+            android:layout_marginTop="8dp"
+            tools:text="Anil"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AddBookLinearLayoutStyle">
+
+        <TextView
+            style="@style/AddBookTextViewStyle"
+            android:text="@string/supplier_phone_number"/>
+
+        <EditText
+            android:id="@+id/edit_text_supplier_phone_number"
+            style="@style/AddBookEditTextStyle"
+            android:inputType="number"
+            android:layout_marginTop="16dp"
+            tools:text="123-456-7890"/>
+    </LinearLayout>
+
+</LinearLayout>

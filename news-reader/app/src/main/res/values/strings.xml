@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="no_internet">No internet Connection.</string>
+    <string name="no_news">No news found.</string>
+
+    <string name="author">Author:</string>
+
+    <string name="please_wait">Please wait a little for FROM DATE preference.</string>
+
+    <string name="get_news_list_error">Error occurred when closing inputStream.</string>
+    <string name="create_url_error">Error occurred when creating url.</string>
+    <string name="error_code">Error response code: </string>
+    <string name="retrieving_json_error">Problem occurred when retrieving the news JSON results.</string>
+    <string name="parsiong_json_error">Problem occurred when parsing the news JSON results.</string>
+    <string name="show_date_error">Error occurred when showing datePicker.</string>
+
+    <string name="check_connection">- Check your connection.</string>
+    <string name="check_json_api">- Check the json address API.</string>
+
+    <!-- String for Settings -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!-- Order-by -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by newest option -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Settings option for from-date -->
+    <string name="settings_from_date_label">From Date</string>
+    <string name="settings_from_date_key" translatable="false">from-date</string>
+    <string name="settings_from_date_default" translatable="false">2018-01-31</string>
+
+    <!-- Settings option for news count -->
+    <string name="settings_page_size_label">Page Size</string>
+    <string name="settings_page_size_key" translatable="false">page-size</string>
+    <string name="settings_page_size_default" translatable="false">10</string>
+
+</resources>

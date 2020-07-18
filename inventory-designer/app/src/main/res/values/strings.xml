@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <string name="books">Books</string>
+    <string name="add_book">Add a Book</string>
+    <string name="edit_book">Edit Book</string>
+
+    <string name="book_name">Book Name: </string>
+    <string name="price">Price: </string>
+    <string name="quantity">Quantity: </string>
+    <string name="supplier_name">Supplier Name: </string>
+    <string name="supplier_phone_number">Supplier Phone Number: </string>
+
+    <string name="add_book_hint">Cannot be lower than 0</string>
+    <string name="quantity_decrease_error">Quantity cannot be lower than 0</string>
+    <string name="dolar_sign">$</string>
+
+    <string name="insert_data">Insert Dummy Data</string>
+    <string name="delete_all_data">Delete All Data</string>
+
+    <string name="quit">Quit</string>
+    <string name="change_quantit_amount_dialog">Are you want to %1$s quantity of %2$s?</string>
+    <string name="are_u_sure">Are you sure you want to close this app?</string>
+    <string name="delete_mesage_dialog">Are you sure you want to delete %1$s?</string>
+    <string name="go_back_dialog">Are you sure you want to go back? (You can\'t access changes again)</string>
+    <string name="save_database_dialog">Are you want to save this book to database?</string>
+    <string name="update_database_dialog">Are you want to update %1$s to database?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="empty_view_title_text">There is no record of any books.</string>
+    <string name="empty_view_subtitle_text">Get start by adding a book record.</string>
+
+    <string name="delete_all_data_done">Delete all data, item count: </string>
+    <string name="error_occur_deleting_data">Deleting failed, no data found</string>
+
+    <!-- Delete message for all data -->
+    <string name="delete_dialog_msg_for_all_data">Are you want to delete all data?</string>
+
+    <!-- Book saved message -->
+    <string name="saved_book_message"> Book successfully saved </string>
+
+    <!-- Book update message -->
+    <string name="update_book_message"> Book successfully saved </string>
+
+    <!-- Error occur when saving book message -->
+    <string name="error_saved_book_message"> Error occur when saving book to database </string>
+
+    <!-- Error occur when updating book message -->
+    <string name="error_update_book_message"> Error occur when updating book to database </string>
+
+    <!-- Error message when user update book without change any data about it -->
+    <string name="no_change_update"> Please update %1$s after change some data about it</string>
+
+    <!-- Button name for sale button -->
+    <string name="sale">Sale</string>
+
+    <!-- pop up message options -->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- These error messages using when controlling user inputs is correct -->
+    <string name="invalid_inputs">Please input valid informations: </string>
+    <string name="invalid_price">-Price cannot be smaller than 0.</string>
+    <string name="invalid_name">-Book\'s name cannot be empty.</string>
+    <string name="invalid_quantity">-Quantity cannot be lower than 0.</string>
+    <string name="invalid_supplier_name">-Supplier\'s name cannot be empty.</string>
+    <string name="invalid_supplier_phone_number">-Supplier\'s phone number cannot be empty.</string>
+    <string name="invalid_change">Invalid change code</string>
+
+    <string name="default_increase_amount">1</string>
+
+    <string name="invalid_book_uri">Book cannot found, invalid book uri</string>
+
+    <string name="editor_delete_book_successful">%1$s deleted</string>
+
+    <string name="editor_delete_book_failed">Error occur when deleting %1$s</string>
+
+    <string name="call_supplier">Call Supplier</string>
+</resources>

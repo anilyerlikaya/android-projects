@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".BookDetailActivity">
+
+    <LinearLayout
+        style="@style/BookDetailLinearLayoutStyle">
+
+        <TextView
+            style="@style/BookDetailTextViewStyle"
+            android:text="@string/book_name"/>
+
+        <EditText
+            android:id="@+id/book_name"
+            style="@style/BookDetailStyle"
+            tools:text="1984"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/BookDetailLinearLayoutStyle">
+
+        <TextView
+            style="@style/BookDetailTextViewStyle"
+            android:text="@string/price"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dolar_sign"
+            android:textSize="22sp"
+            android:textColor="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/book_price"
+            style="@style/BookDetailStyle"
+            android:inputType="numberDecimal"
+            tools:text="10.00"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/BookDetailLinearLayoutStyle">
+
+        <TextView
+            style="@style/BookDetailTextViewStyle"
+            android:text="@string/quantity"/>
+
+        <TextView
+            android:id="@+id/book_quantity"
+            style="@style/BookDetailStyle"
+            tools:text="100"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/quantity_decrease_button"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_toLeftOf="@+id/quantity_change_amount"
+                android:background="@drawable/decrease"/>
+
+            <EditText
+                android:id="@+id/quantity_change_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="16sp"
+                android:layout_toLeftOf="@+id/quantity_increase_button"
+                android:text="@string/default_increase_amount"/>
+
+            <Button
+                android:id="@+id/quantity_increase_button"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/increase"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/BookDetailLinearLayoutStyle">
+
+        <TextView
+            style="@style/BookDetailTextViewStyle"
+            android:text="@string/supplier_name"/>
+
+        <EditText
+            android:id="@+id/book_supplier_name"
+            style="@style/BookDetailStyle"
+            tools:text="Anil"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/BookDetailLinearLayoutStyle">
+
+        <TextView
+            style="@style/BookDetailTextViewStyle"
+            android:text="@string/supplier_phone_number"/>
+
+        <EditText
+            android:id="@+id/book_supplier_phone_number"
+            style="@style/BookDetailStyle"
+            android:inputType="number"
+            tools:text="123-456-7890"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/call_supplier_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/call_supplier"/>
+
+</LinearLayout>
